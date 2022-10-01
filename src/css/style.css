@@ -1,0 +1,118 @@
+body{
+    background-color: var(--color-light);
+
+}
+.massage-wall{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,290px);
+    grid-gap: 20px;
+    width: 90vw;
+    margin: 20px;
+    min-height: 100vh;
+
+}
+.massage{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: var(--principal-font);
+    border-radius: 10px;
+    line-height: 22px;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.44);
+}
+
+.massage-1{
+    background-color: var(--chat-1-background);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position:80% 0%;
+    width: 620px;
+    grid-column: 1 / span 2;
+}
+
+.massage-2{
+    background-color: var(--chat-2-background);
+    width: 300px;
+    grid-column-start: 3;
+}
+.massage-2 .text{
+    margin-top: 20px;
+    line-height: 22px;
+}
+.massage-3{
+    background-color: var(--chat-4-background);
+    width: 300px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.massage-3 .text{
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.massage-4{
+    background-color: var(--chat-3-background);
+    width: 620px;
+    grid-column: 2 / span 3;
+    grid-row-start: 2;
+}
+.massage-4 .text{
+    margin-top: 20px;
+    line-height: 22px;
+}
+.massage-5{
+    background-color: var(--chat-4-background);
+    width: 350px;
+    grid-column-start: 4;
+    grid-row: 1 / span 2;
+}
+.massage-5 .text{
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+.massage .header-massage{
+    display:grid;
+    width: 200px;
+    grid:
+    'image author'25px
+    'image status'20px
+    ;
+    margin-bottom: 20px;
+}
+.massage .image{
+    display: flex;
+    width: 40px;
+    border-radius: 30px;
+    border: 2px solid var(--color-light);
+}
+.massage .light{
+    color: var(--color-light);
+}
+.massage .light.text, .light.status{
+    color: var(--color-gray);
+}
+
+
+.author{
+    display: flex;
+    grid-area: author;
+}
+
+.status{
+    display: flex;
+    grid-area: status;
+    color: gray;
+}
+.subject{
+    display: flex;
+    font-size: 24px;
+}
+
+.text{
+    display: flex;
+    margin-top: 10px;
+    color: gray;
+    font-size: 15px;
+}

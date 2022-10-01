@@ -1,0 +1,37 @@
+@media(max-width:900px){
+    .massage-wall{
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(3,290px);
+    }
+    .massage-1{
+        width:570px;
+    }
+    .massage-2{
+        width: 290px;
+    }
+    .massage-3{
+        width: 290px;
+    }
+    .massage-4{
+        width:570px;
+    }
+    .massage-5{
+        width: 880px;
+        height: 290px;
+        grid-column: 1/ span 3;
+        grid-row-start: 3;
+    }
+
+
+}
+
+@media(max-width:375px){
+    .massage-wall{
+        display: flex;
+        flex-direction: column;
+    }
+    .massage{
+    width: 90vw;
+    }
+    
+}
