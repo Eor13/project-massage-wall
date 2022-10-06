@@ -3,25 +3,18 @@
         grid-template-columns: repeat(3,auto);
         grid-template-rows: repeat(3,290px);
     }
-    .massage-1{
-        width:570px;
-    }
-    .massage-2{
-        width: 290px;
-    }
-    .massage-3{
-        width: 290px;
-    }
-    .massage-4{
-        width:570px;
-    }
     .massage-5{
-        width: 880px;
+        width: 900px;
         height: 290px;
         grid-column: 1/ span 3;
         grid-row-start: 3;
     }
-
+    .massage-5 .light{
+        width: 860px;
+    }
+    .massage-5 .text{
+        width: 860px;
+    }
 
 }
 
@@ -32,6 +25,52 @@
     }
     .massage{
     width: 90vw;
+    height: auto;
+    }
+    .massage-1 .light{
+        width: 70vw;
+    }
+    .massage-1 .text{
+        width: 70vw;
     }
     
+    .massage-2 .light{
+        width: 70vw;
+    }
+    .massage-2 .text{
+        width: 70vw;
+        font-size: 13px;
+    }
+
+    .massage-3 .light{
+        width: 70vw;
+    }
+    .massage-3 .text{
+        width: 70vw;
+        font-size: 13px;
+    }
+    .massage-3 .subject{
+        font-size: 20px;
+    }
+    
+    .massage-4 .light{
+        width: 70vw;
+    }
+    .massage-4 .text{
+        width: 70vw;
+    }
+    .massage-4 .subject{
+        font-size: 20px;
+    }
+    
+    .massage-5 .light{
+        width: 70vw;
+    }
+    .massage-5 .text{
+        width: 70vw;
+        font-size: 13px;
+    }
+    .massage-5 .subject{
+        font-size: 20px;
+    }
 }
