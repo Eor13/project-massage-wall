@@ -1,19 +1,25 @@
+html{
+    font-size: 62.5%;
+}
 body{
     background-color: var(--color-light);
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1400px;
+    max-height: 850px;
+    margin: auto;
 
 }
 .massage-wall{
 
     display: grid;
     grid-template-columns: repeat(4,auto);
-    grid-template-rows: repeat(2,290px);
-    grid-gap: 20px;
-    max-width: 1440px;
-    margin: 20px;
-    min-height: 100vh;
+    grid-template-rows: repeat(2,auto);
+    grid-gap: 2%;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10% 5%;
 
 
 }
@@ -26,6 +32,7 @@ body{
     border-radius: 10px;
     line-height: 22px;
     box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.44);
+    max-height: 370px;
 }
 
 .massage-1{
@@ -34,98 +41,106 @@ body{
     background-repeat: no-repeat;
     background-position:80% 0%;
     max-width: 600px;
+    width: 100%;
+    height: 100%;
     grid-column: 1 / span 2;
 }
 .massage-1 .light{
-    width: 540px;
+    max-width: 540px;
+    width: 100%;
+    
 }
-.massage-1 .text{
-    width: 540px;
-    margin-top: 15px;   
-    font-size: 15px;
-}
-
 .massage-2{
     background-color: var(--chat-2-background);
-    width: 280px;
-    grid-column-start: 3;
+    max-width: 280px;
+    width: 100%;
+    height: 100%;
+    grid-column: 3;
+    grid-row: 1
 }
 .massage-2 .light{
-    width: 200px;
+    width: 100%;
 }
 
 .massage-2 .text{
-    width: 200px;
-    margin-top: 15px;
+    max-height: 290px;
+    height: 100%;
     line-height: 22px;
-    font-size: 14px;
 }
 .massage-3{
     background-color: var(--chat-4-background);
-    width: 280px;
-    grid-column-start: 1;
+    max-width: 280px;
+    width: 100%;
+    height: 100%;
+    grid-column: 1;
     grid-row-start: 2;
 }
 
 .massage-3 .light{
-    width: 200px;
+    width: 100%;
+    
 }
 
 .massage-3 .text{
-    width: 200px;
-    margin-top: 15px;
+    max-height: 290px;
+    width: 100%;
     line-height: 24px;
-    font-size: 14px;
 }
 
 .massage-4{
     background-color: var(--chat-3-background);
-    width: 600px;
-    grid-column: 2 / span 3;
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+    grid-column: 2 / span 2;
     grid-row-start: 2;
 }
 .massage-4 .light{
-    width: 540px;
+    max-width: 540px;
+    width: 100%;
 }
 .massage-4 .text{
-    width: 540px;
     line-height: 22px;
-    margin-top: 20px;
-    font-size: 15px;
 }
 .massage-5{
     background-color: var(--chat-4-background);
-    width: 340px;
+    max-width: 340px;
+    max-height: 790px;
+    width: 100%;
     grid-column-start: 4;
     grid-row: 1 / span 2;
     padding: 20px 30px;
 }
 .massage-5 .light{
-    width: 280px;
+    max-width: 270px;
+    width: 100%;
 }
 
 .massage-5 .text{
-    width: 280px;
+    max-height: 490px;
+    max-width: 270px;
+    width: 100%;
     margin-top: 10px;
     line-height: 26px;
-    font-size: 14.5px;
 }
 
 .massage .header-massage{
     display:grid;
-    width: 200px;
+    max-width: 200px;
+    max-height: 45px;
     grid:
     'image author'25px
     'image status'20px
     ;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
+    font-size: 1.3rem;
 }
 .massage .image{
     display: flex;
-    width: 40px;
+    max-width: 40px;
     border-radius: 30px;
     border: 2px solid var(--color-light);
-    margin-right: 8px;
+    margin-right: 2%;
 }
 
 .massage .light{
@@ -148,8 +163,10 @@ body{
 }
 .subject{
     display: flex;
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 .text{
     color: gray;
+    font-size: 1.4rem;
+    margin-top: 15px;
 }
