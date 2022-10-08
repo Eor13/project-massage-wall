@@ -1,7 +1,6 @@
 @media (max-width:1135px) {
     body{
         max-width: 900px;
-        max-height: 1200px;
     }
     .massage-wall{
         grid-template-columns: repeat(3,auto);
@@ -27,7 +26,6 @@
 @media(max-width:775px){
     body{
         max-width: 500px;
-        max-height: auto;
     }
     .massage-wall{
         display: flex;
@@ -36,47 +34,52 @@
         margin: 30px auto;
     }
     .massage{
-    max-width: 470px;
-    max-height: 240px;
-    margin: 0 10px;
-    padding: 20px;
-    line-height: none;
-    }
-    .massage-5{
-        max-height: 300px;
+    max-width: 450px;
+    margin: auto;
+    padding: 40px;
     }
     .massage .header-massage{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .subject{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     .text{
-        font-size: 1rem;
+        font-size: 1.4rem;
         margin-top: 0;
     }
 }
-@media(max-width:375px){
-    
-    .massage{
-        width: 340px;
-        max-height: 260px;
-        margin: 0 10px;
-        padding: 10px;
+@media(max-width:475px){
+    body{
+        max-width: 370px;
     }
-    .massage-5{
-        max-height: 310px;
-        
+    .massage{
+        max-width: 300px;
+        min-width: 280px;
+        margin: 0 auto;
     }
     .massage .header-massage{
-        font-size: 0.9rem;
         margin-bottom: 0;
     }
+}
+@media(max-width:375px){
+    body{
+        max-width: 260px;
+    }
+    .massage{
+        padding: 40px;
+    }
+    .massage .header-massage{
+        font-size: 1.2rem;
+    }
     .subject{
-        font-size: 1.3rem;
+        font-size: 1.55rem;
     }
     .text{
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin-top: 0;
+    }
+    .massage-5 .subject{
+        font-size: 1.54rem;
     }
 }

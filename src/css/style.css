@@ -7,12 +7,11 @@ body{
     justify-content: center;
     align-items: center;
     max-width: 1400px;
-    max-height: 650px;
+    max-height: 100%;
     margin: auto;
 
 }
 .massage-wall{
-
     display: grid;
     grid-template-columns: repeat(4,auto);
     grid-template-rows: repeat(2,auto);
@@ -20,6 +19,7 @@ body{
     flex-wrap: wrap;
     width: 100%;
     margin: 10% 5%;
+    max-width: 1190px;
 
 
 }
@@ -32,101 +32,11 @@ body{
     border-radius: 10px;
     line-height: 22px;
     box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.44);
-    max-height: 370px;
+    max-height: 100%;
 }
-
-.massage-1{
-    background-color: var(--chat-1-background);
-    background-image: url(../images/bg-pattern-quotation.svg);
-    background-repeat: no-repeat;
-    background-position:80% 0%;
-    max-width: 600px;
-    width: 100%;
-    height: 100%;
-    grid-column: 1 / span 2;
-}
-.massage-1 .light{
-    max-width: 540px;
-    width: 100%;
-    
-}
-.massage-2{
-    background-color: var(--chat-2-background);
-    max-width: 280px;
-    width: 100%;
-    height: 100%;
-    grid-column: 3;
-    grid-row: 1
-}
-.massage-2 .light{
-    width: 100%;
-}
-
-.massage-2 .text{
-    max-height: 290px;
-    height: 100%;
-    line-height: 22px;
-}
-.massage-3{
-    background-color: var(--chat-4-background);
-    max-width: 280px;
-    width: 100%;
-    height: 100%;
-    grid-column: 1;
-    grid-row-start: 2;
-}
-
-.massage-3 .light{
-    width: 100%;
-    
-}
-
-.massage-3 .text{
-    max-height: 290px;
-    width: 100%;
-    line-height: 24px;
-}
-
-.massage-4{
-    background-color: var(--chat-3-background);
-    max-width: 600px;
-    width: 100%;
-    height: 100%;
-    grid-column: 2 / span 2;
-    grid-row-start: 2;
-}
-.massage-4 .light{
-    max-width: 540px;
-    width: 100%;
-}
-.massage-4 .text{
-    line-height: 22px;
-}
-.massage-5{
-    background-color: var(--chat-4-background);
-    max-width: 340px;
-    max-height: 790px;
-    width: 100%;
-    grid-column-start: 4;
-    grid-row: 1 / span 2;
-    padding: 20px 30px;
-}
-.massage-5 .light{
-    max-width: 270px;
-    width: 100%;
-}
-
-.massage-5 .text{
-    max-height: 490px;
-    max-width: 270px;
-    width: 100%;
-    margin-top: 10px;
-    line-height: 26px;
-}
-
 .massage .header-massage{
     display:grid;
-    max-width: 200px;
+    max-width: 150px;
     max-height: 45px;
     grid:
     'image author'25px
@@ -167,6 +77,96 @@ body{
 }
 .text{
     color: gray;
-    font-size: 1.4rem;
+    font-size: 1.35rem;
     margin-top: 15px;
+}
+
+.massage-1{
+    background-color: var(--chat-1-background);
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position:80% 0%;
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+    grid-column: 1 / span 2;
+}
+.massage-1 .light{
+    max-width: 540px;
+    width: 100%;
+    
+}
+.massage-2{
+    background-color: var(--chat-2-background);
+    max-width: 280px;
+    width: 100%;
+    height: 100%;
+    grid-column: 3;
+    grid-row: 1
+}
+.massage-2 .light{
+    width: 100%;
+}
+
+.massage-2 .text{
+    max-height: 140px;
+    height: 100%;
+    line-height: 22px;
+}
+.massage-3{
+    background-color: var(--chat-4-background);
+    max-width: 280px;
+    width: 100%;
+    height: 100%;
+    grid-column: 1;
+    grid-row-start: 2;
+}
+
+.massage-3 .light{
+    width: 100%;
+    
+}
+
+.massage-3 .text{
+    max-height: 290px;
+    width: 100%;
+    line-height: 24px;
+}
+
+.massage-4{
+    background-color: var(--chat-3-background);
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+    grid-column: 2 / span 2;
+    grid-row-start: 2;
+}
+.massage-4 .light{
+    max-width: 540px;
+    width: 100%;
+}
+.massage-4 .text{
+    line-height: 22px;
+}
+.massage-5{
+    background-color: var(--chat-4-background);
+    max-width: 260px;
+    max-height: 790px;
+    width: 100%;
+    grid-column-start: 4;
+    grid-row: 1 / span 2;
+    padding: 20px 30px;
+}
+.massage-5 .light{
+    max-width: 250px;
+    width: 100%;
+}
+
+.massage-5 .text{
+    max-height: 490px;
+    max-width: 250px;
+    width: 100%;
+    margin-top: 10px;
+    line-height: 24px;
+    font-size: 1.33rem;
 }
