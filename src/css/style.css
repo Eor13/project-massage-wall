@@ -11,7 +11,7 @@ body{
     margin: auto;
 
 }
-.massage-wall{
+.message-wall{
     display: grid;
     grid-template-columns: repeat(4,auto);
     grid-template-rows: repeat(2,auto);
@@ -23,7 +23,7 @@ body{
 
 
 }
-.massage{
+.message{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +34,7 @@ body{
     box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.44);
     max-height: 100%;
 }
-.massage .header-massage{
+.message .header-message{
     display:grid;
     max-width: 150px;
     max-height: 45px;
@@ -45,7 +45,7 @@ body{
     margin-bottom: 2%;
     font-size: 1.3rem;
 }
-.massage .image{
+.message .image{
     display: flex;
     max-width: 40px;
     border-radius: 30px;
@@ -53,11 +53,11 @@ body{
     margin-right: 2%;
 }
 
-.massage .light{
+.message .light{
     color: var(--color-light);
 }
 
-.massage .light.text, .light.status{
+.message .light.text, .light.status{
     color: var(--color-gray);
 }
 
@@ -81,7 +81,7 @@ body{
     margin-top: 15px;
 }
 
-.massage-1{
+.message-1{
     background-color: var(--chat-1-background);
     background-image: url(../images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
@@ -91,12 +91,12 @@ body{
     height: 100%;
     grid-column: 1 / span 2;
 }
-.massage-1 .light{
+.message-1 .light{
     max-width: 540px;
     width: 100%;
     
 }
-.massage-2{
+.message-2{
     background-color: var(--chat-2-background);
     max-width: 280px;
     width: 100%;
@@ -104,16 +104,16 @@ body{
     grid-column: 3;
     grid-row: 1
 }
-.massage-2 .light{
+.message-2 .light{
     width: 100%;
 }
 
-.massage-2 .text{
+.message-2 .text{
     max-height: 140px;
     height: 100%;
     line-height: 22px;
 }
-.massage-3{
+.message-3{
     background-color: var(--chat-4-background);
     max-width: 280px;
     width: 100%;
@@ -122,18 +122,18 @@ body{
     grid-row-start: 2;
 }
 
-.massage-3 .light{
+.message-3 .light{
     width: 100%;
     
 }
 
-.massage-3 .text{
+.message-3 .text{
     max-height: 290px;
     width: 100%;
     line-height: 24px;
 }
 
-.massage-4{
+.message-4{
     background-color: var(--chat-3-background);
     max-width: 600px;
     width: 100%;
@@ -141,14 +141,14 @@ body{
     grid-column: 2 / span 2;
     grid-row-start: 2;
 }
-.massage-4 .light{
+.message-4 .light{
     max-width: 540px;
     width: 100%;
 }
-.massage-4 .text{
+.message-4 .text{
     line-height: 22px;
 }
-.massage-5{
+.message-5{
     background-color: var(--chat-4-background);
     max-width: 260px;
     max-height: 790px;
@@ -157,12 +157,12 @@ body{
     grid-row: 1 / span 2;
     padding: 20px 30px;
 }
-.massage-5 .light{
+.message-5 .light{
     max-width: 250px;
     width: 100%;
 }
 
-.massage-5 .text{
+.message-5 .text{
     max-height: 490px;
     max-width: 250px;
     width: 100%;
